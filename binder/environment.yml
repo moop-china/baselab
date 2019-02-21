@@ -8,14 +8,11 @@ dependencies:
   - nltk
   - nodejs 
   - numpy
-  - fancyimpute
-  - numpy
   - pandas
   - cvxpy
   - xgboost
   - lightgbm
   - graphviz
-  - imblearn
   - jupyterlab-git
   - pip:
     - nbgitpuller
@@ -32,4 +29,5 @@ dependencies:
     - pygraphviz
     - pycallgraph
     - transitions
-    
+    - fancyimpute
+    - imblearn
