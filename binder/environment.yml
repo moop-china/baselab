@@ -2,22 +2,14 @@ name: datadynamic-environment
 channels:
   - conda-forge
 dependencies:
-  - dask
-  - distributed
-  - python >= 3.7
+  - python >= 3.6
   - jupyterlab
-  - networkx
-  - nltk
   - nodejs 
   - cvxpy
   - lightgbm
-  - graphviz
   - jupyterlab-git
-  - python-graphviz
   - scikit-learn
-  - sympy
   - pip:
-    - pycallgraph
     - transitions
     - nbgitpuller
     - xgboost
@@ -30,10 +22,3 @@ dependencies:
     - echarts-countries-pypkg
     - echarts-china-provinces-pypkg
     - echarts-china-cities-pypkg
-    - pydot
-    - pydotplus
-    - pygraphviz
-    - pycallgraph
-    - transitions
-    - fancyimpute
-    - imblearn
