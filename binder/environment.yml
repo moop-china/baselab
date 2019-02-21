@@ -2,6 +2,9 @@ name: datadynamic-environment
 channels:
   - conda-forge
 dependencies:
+  - dask
+  - distributed
+  - libcgraph6
   - python >= 3.7
   - jupyterlab
   - networkx
