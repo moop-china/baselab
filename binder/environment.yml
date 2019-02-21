@@ -1,0 +1,35 @@
+name: datadynamic-environment
+channels:
+  - conda-forge
+dependencies:
+  - python >= 3.7
+  - jupyterlab >=0.19.1 <0.20.0
+  - networkx
+  - nltk
+  - nodejs 
+  - numpy
+  - fancyimpute
+  - numpy
+  - pandas
+  - cvxpy
+  - xgboost
+  - lightgbm
+  - graphviz
+  - imblearn
+  - jupyterlab-git
+  - pip:
+    - nbgitpuller
+    - sphinx-gallery
+    - pandas
+    - matplotlib
+    - pyecharts
+    - pyecharts-snapshot
+    - echarts-countries-pypkg
+    - echarts-china-provinces-pypkg
+    - echarts-china-cities-pypkg
+    - pydot
+    - pydotplus
+    - pygraphviz
+    - pycallgraph
+    - transitions
+    
