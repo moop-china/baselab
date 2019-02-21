@@ -4,3 +4,14 @@
 
 jupyter nbextension install echarts
 jupyter nbextension enable echarts/main
+
+jupyter labextension install echarts
+jupyter labextension enable echarts/main
+# install graphviz extension
+
+set -ex
+jlpm
+jlpm build
+jupyter labextension link .
+jupyter labextension list
+
