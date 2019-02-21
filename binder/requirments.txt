@@ -7,6 +7,7 @@ lightgbm
 graphviz
 imblearn
 orange3-associate
+jupyterlab >=0.19.1 <0.20.0
 jupyterhub
 dask
 distributed
@@ -22,8 +23,6 @@ transitions
 scikit-learn
 sympy
 jupyterlab-git
-
-charts
 pyecharts
 pyecharts-snapshot
 echarts-countries-pypkg
