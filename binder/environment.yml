@@ -4,7 +4,7 @@ channels:
 dependencies:
   - dask
   - distributed
-  - libcgraph6
+  - libcgraph
   - python >= 3.7
   - jupyterlab
   - networkx
