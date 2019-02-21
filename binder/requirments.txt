@@ -8,6 +8,20 @@ graphviz
 imblearn
 orange3-associate
 jupyterhub
+dask
+distributed
+graphviz
+networkx
+nltk
+nodejs
+pydot
+pydotplus
+pygraphviz
+pycallgraph
+transitions
+scikit-learn
+sympy
+jupyterlab-git
 
 charts
 pyecharts

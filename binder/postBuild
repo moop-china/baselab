@@ -2,16 +2,15 @@
 
 # Install JupyterLab extension
 
-jupyter nbextension install echarts
-jupyter nbextension enable echarts/main
-
-jupyter labextension install echarts
-jupyter labextension enable echarts/main
 # install graphviz extension
 
-set -ex
-jlpm
-jlpm build
-jupyter labextension link .
-jupyter labextension list
 
+jupyter labextension install @jupyterlab/hub-extension
+
+jupyter labextension install @jupyterlab/git
+jupyter serverextension enable --py jupyterlab_git
+
+jupyter labextension install jupyterlab_graphviz
+
+jupyter nbextension install echarts
+jupyter nbextension enable echarts/main
