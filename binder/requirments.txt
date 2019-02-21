@@ -1,6 +1,7 @@
 fancyimpute
-numpy==1.14
-cvxpy==1.0.6
+numpy
+pandas
+cvxpy
 xgboost
 lightgbm
 graphviz
