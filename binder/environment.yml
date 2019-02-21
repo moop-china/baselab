@@ -9,16 +9,20 @@ dependencies:
   - networkx
   - nltk
   - nodejs 
-  - numpy
-  - pandas
   - cvxpy
-  - xgboost
   - lightgbm
   - graphviz
   - jupyterlab-git
+  - python-graphviz
+  - scikit-learn
+  - sympy
   - pip:
+    - pycallgraph
+    - transitions
     - nbgitpuller
-    - sphinx-gallery
+    - xgboost
+    - tushare
+    - numpy
     - pandas
     - matplotlib
     - pyecharts
