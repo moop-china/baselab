@@ -7,3 +7,11 @@ lightgbm
 graphviz
 imblearn
 orange3-associate
+jupyterhub
+
+charts
+pyecharts
+pyecharts-snapshot
+echarts-countries-pypkg
+echarts-china-provinces-pypkg
+echarts-china-cities-pypkg

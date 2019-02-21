@@ -2,3 +2,5 @@
 
 # Install JupyterLab extension
 
+jupyter nbextension install echarts
+jupyter nbextension enable echarts/main
