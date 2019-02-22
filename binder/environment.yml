@@ -8,7 +8,6 @@ dependencies:
   - jupyterlab-git
   - pip:
     - transitions
-    - functools
     - ipywidgets
     - nbgitpuller
     - nbgrader
