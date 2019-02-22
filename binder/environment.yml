@@ -4,8 +4,10 @@ channels:
 dependencies:
   - python >= 3.6
   - jupyterlab
+  - jupyterhub
   - nodejs 
   - jupyterlab-git
+  - bokeh
   - pip:
     - transitions
     - ipywidgets
@@ -15,6 +17,7 @@ dependencies:
     - tushare
     - numpy
     - pandas
+    - scipy
     - matplotlib
     - perspective-python
     - mpl_finance
