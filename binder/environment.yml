@@ -8,6 +8,8 @@ dependencies:
   - jupyterlab-git
   - pip:
     - transitions
+    - functools
+    - ipywidgets
     - nbgitpuller
     - nbgrader
     - xgboost
@@ -20,8 +22,10 @@ dependencies:
     - plotly
     - tqdm
     - statsmodels
-    # - pyecharts
-    # - pyecharts-snapshot
-    # - echarts-countries-pypkg
-    # - echarts-china-provinces-pypkg
-    # - echarts-china-cities-pypkg
+    - boto
+    - sklearn
+    - pyecharts
+    - pyecharts-snapshot
+    - echarts-countries-pypkg
+    - echarts-china-provinces-pypkg
+    - echarts-china-cities-pypkg
