@@ -10,7 +10,16 @@ jupyter labextension install @jupyterlab/git
 jupyter serverextension enable --py jupyterlab_git
 
 jupyter labextension install @jupyterlab/plotly-extension
-
+jupyter labextension install jupyterlab-chart-editor
+jupyter labextension install @jupyterlab/mathjax3-extension
+jupyter labextension install @jupyterlab/latex
+jupyter labextension install @mflevine/jupyterlab_html
+jupyter labextension install jupyterlab_bokeh
+jupyter labextension install @jpmorganchase/perspective-jupyterlab
 
 jupyter nbextension install echarts --user
 jupyter nbextension enable echarts/main --user
+
+jupyter nbextension install --sys-prefix --py nbgrader --overwrite
+jupyter nbextension enable --sys-prefix --py nbgrader
+jupyter serverextension enable --sys-prefix --py nbgrader
