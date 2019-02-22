@@ -5,21 +5,23 @@ dependencies:
   - python >= 3.6
   - jupyterlab
   - nodejs 
-  - cvxpy
-  - lightgbm
   - jupyterlab-git
-  - scikit-learn
   - pip:
     - transitions
     - nbgitpuller
+    - nbgrader
     - xgboost
     - tushare
     - numpy
     - pandas
     - matplotlib
     - perspective-python
-    - pyecharts
-    - pyecharts-snapshot
-    - echarts-countries-pypkg
-    - echarts-china-provinces-pypkg
-    - echarts-china-cities-pypkg
+    - mpl_finance
+    - plotly
+    - tqdm
+    - statsmodels
+    # - pyecharts
+    # - pyecharts-snapshot
+    # - echarts-countries-pypkg
+    # - echarts-china-provinces-pypkg
+    # - echarts-china-cities-pypkg
