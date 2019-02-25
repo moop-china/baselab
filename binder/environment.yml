@@ -26,6 +26,7 @@ dependencies:
     - statsmodels
     - boto
     - sklearn
+    - echarts
     - pyecharts
     - pyecharts-snapshot
     - echarts-countries-pypkg
