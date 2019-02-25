@@ -1,6 +1,7 @@
 name: datadynamic-environment
 channels:
   - conda-forge
+  - default
 dependencies:
   - python >= 3.6
   - jupyterlab
@@ -14,6 +15,7 @@ dependencies:
     - nbgitpuller
     - nbgrader
     - xgboost
+    - sklearn
     - tushare
     - numpy
     - pandas
@@ -25,10 +27,3 @@ dependencies:
     - tqdm
     - statsmodels
     - boto
-    - sklearn
-    - echarts
-    - pyecharts
-    - pyecharts-snapshot
-    - echarts-countries-pypkg
-    - echarts-china-provinces-pypkg
-    - echarts-china-cities-pypkg

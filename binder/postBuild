@@ -14,7 +14,6 @@ jupyter labextension install jupyterlab-chart-editor
 jupyter labextension install @jupyterlab/mathjax3-extension
 jupyter labextension install @jupyterlab/latex
 jupyter labextension install @mflevine/jupyterlab_html
-jupyter labextension install jupyterlab_bokeh
 
-jupyter nbextension install --sys-prefix --py echarts
-jupyter nbextension enable --sys-prefix --py echarts
+# jupyter nbextension install --sys-prefix --py echarts
+# jupyter nbextension enable --sys-prefix --py echarts
